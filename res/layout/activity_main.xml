@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+     <Button 
+        android:id="@+id/aButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="play a"
+        />
+   	<Button 
+        android:id="@+id/bButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="play b"
+        />
+   	<Button 
+        android:id="@+id/cButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="play c"
+        />
+   	<Button 
+        android:id="@+id/dButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="play d"
+        />
+   	<Button 
+        android:id="@+id/eButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="play e"
+        />
+   	<Button 
+        android:id="@+id/fButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="play f"
+        />
+   	
+	<RelativeLayout 
+	    android:id="@+id/rel"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    tools:context=".MainActivity" 
+	    android:orientation="vertical"
+	    android:gravity="center_horizontal"	    
+	    >
+
+	   <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingTop="30dp"
+	        android:layout_centerHorizontal="true"
+	        android:inputType="textPersonName" 
+	        android:text="enter song"
+	        >
+	        
+
+	    </EditText>
+
+	    <Button
+	        android:id="@+id/submit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_below="@+id/editText1"
+	        android:layout_centerHorizontal="true"
+	        android:text="submit" />
+	    
+	    <EditText
+	        android:id="@+id/helpText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"
+	        android:layout_centerHorizontal="true"
+	        android:inputType="textPersonName" 
+	        android:textSize="8dp"
+	        android:text="use a-f letters to make a song. Use a - for a pause"
+	        >
+	        
+
+	    </EditText>
+	    
+	</RelativeLayout>
+</LinearLayout>
